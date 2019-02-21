@@ -3,9 +3,8 @@ body {
 }
 
 #logoHeading {
-
-    width: 150px;
-    height: 90px;
+    width: 200px;
+    height: 120px;
     position: absolute;
     float: left;
     top: 10px;
@@ -25,11 +24,18 @@ nav {
 }
 
  nav a {
+    
     font-size: 18px;
     font-weight: bold;
     padding: 0 90px;
     color: white;
     text-decoration: none;
+}
+
+.menu li:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
 }
 
 nav ul {
@@ -59,3 +65,5 @@ nav li {
     width: 100%;
     
 }
+
+

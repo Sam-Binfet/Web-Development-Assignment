@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<!--This is the contact form page-->
 <html>
 <head lang="en">
     <meta name="author" conent="Sam Binfet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=devicewidth, initialscale=1.0">
-    <title>Binfet LLP - Home</title>
+    <title>Binfet LLP - Contact Us</title>
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="contactUs.css">
 </head>
@@ -30,15 +31,40 @@
         <h1>
             Contact Us
         </h1> <hr>
-        <form>
-            <label> Name </label>
-            <label> Email </label> <br>
-                <input id="name" name="name" type="text" placeholder="Burt Reynolds" required />
-                <input id="email" name="email" type="email" placeholder="BigBurt@yahoo.ca"/> <br>
-            <input id="subject" name="subject" type="text" placeholder="Subject" maxlength="30"/>
-            <input id="date" name="date" type="date" /> <br>
-            <input id="message" name="message" type ="text" placeholder="Message"/>
+        
+        <form method="post" action="mailto:BigBurt@yahoo.ca" class="contactForm">
+            
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Burt Reynolds" required>
+
+            <label>Email</label>
+            <input type="email" name="email" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="BigBurt@yahoo.ca"required>
+
+            <label>Phone Number (Optional)</label>
+            <input type="tel" name="tel" pattern = “[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}” placeholder="403-123-1234" >
+
+            <label> Subject</label>
+            <input type="text" name="subject" maxlength="30" required >
+
+            <label>Would you like to book an appointment</label>
+            <input class="radio" type="radio" name="appointment" value="Yes"> Yes 
+            <input class="radio" type="radio" name="appointment" value="No" checked> No <br>
+
+            <label> Select date for appointent</label>
+            <input type="date" name="date">
+
+            <label>What services are you looking for?</label>
+            <input type="checkbox" name="Audit" value="Audit"> Audit
+            <input type="checkbox" name="Tax" value="Tax"> Tax
+            <input type="checkbox" name="Consulting" value="Consulting"> Consulting
+
+            <textarea name="message" placeholder="Message" ></textarea>
+
+            <input type="reset" value="Clear">
+            <input type="submit">
+
         </form>
+       
     </div>
 </body>
 </html>
