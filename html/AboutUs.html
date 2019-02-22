@@ -1,26 +1,91 @@
 <!DOCTYPE html>
+<!--This is the home page-->
 <html>
 <head lang="en">
     <meta name="author" conent="Sam Binfet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=devicewidth, initialscale=1.0">
-    <title>Binfet LLP - About Us</title>
-    <link rel="stylesheet" href="styleSheet1.css">
+    <title>Burt Company - About Us</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="aboutUs.css">
 </head>
 <body>
     <header>    
-        <img id="logoHeading" src="BinfetLLP-logo.png" alt="Binfet LLP">
+        <img id="logoHeading" src="images/BinfetLLP-logo.png" alt="Binfet LLP">
     
-        <div id="navBar">
+        <div class="navBar" id="homeNavBar">
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="Home.html"> Home</a></li>
+                    <li> | </li>
                     <li><a href="Services.html"> Services</a></li>
+                    <li> | </li>
                     <li><a href="AboutUs.html"> About Us</a></li>
+                    <li> | </li>
                     <li><a href="ContactUs.html"> Contact Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div id="background">
+        <h1> Leaders</h1>
+        <hr>
+        <img id="Burt" src="images/burt.jpg" alt="Burt Reynolds">
+        <article>
+            Burt Reynolds, our fearless leader, is attributed with Burt Companys great success over 
+            the past 3 years. The amazing feats realized under his command are marvelled at by all. If you 
+            have yet to hear of the incredible results Burt Company has seen since its founding in 2016, please
+            see the table below.
+        </article>
+
+        <table>
+            <thead>
+               <caption>
+                   <h2>Burt Company - Financial Records</h2>
+               </caption> 
+
+               
+                <tr>
+                    <th></th>
+                    <th>2018</th>
+                    <th>2017</th>
+                    <th>2016</th>
+                </tr>
+                <tr>
+                    <td>Revenue</td>
+                    <td class="value">$4,000</td>
+                    <td class="value">$900</td>
+                    <td class="value"> ($40)</td>
+                </tr>
+                <tr>
+                    <td>Earnings Per Share</td>
+                    <td class="value">$15.76</td> 
+                    <td class="value">$10.43</td>
+                    <td class="value">($5.20)</td>
+                </tr>
+                <tr>
+                    <td>Free Cash Flow</td>
+                    <td class="value">$212</td>
+                    <td class="value">$94</td>
+                    <td class="value">($76)</td>
+                </tr>
+                <tr>
+                    <td colspan="4" id="note">*Revenue and cash flow values in millions of dollars (CAD)</td>
+                </tr>
+        
+            </thead>
+        </table>
+    </div>
 </body>
+<div class="footer-margin">
+        <hr id="footer-seperator">
+            <footer>
+                
+                @2016 Burt Company LLP <br><br>
+                "You get to a certain age, where you know you can't go over the wall, but I'll never get to the age
+                where I can't go through it." 
+                - Burt Reynolds
+            </footer>
+    </div>  
 </html>
+        
