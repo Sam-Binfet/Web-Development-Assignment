@@ -9,9 +9,10 @@
     height: 1300px;
     bottom: 0;
     background-color: rgba(192, 65, 65, 0.507);
+/*
     z-index: -1;
+*/
 }
-
 hr {
     margin: 10px 100px;
     position: relative;
@@ -33,7 +34,6 @@ div h1 {
     margin-bottom: 60px;
     
 }
-
 #servicesNavBar li:hover {
     transition-property: all;
     transition-duration: 0.5s;
