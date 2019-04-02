@@ -9,26 +9,69 @@
 
     <div class="Main" >
         <header class="page" id="header">
-                Burt Company
+            <div class="banner">
+                <img class="bannerImage" src="images/banner.jpg" alt="">
+            </div>
+            <div class="overlayed">
+                <img class="Logo" src = images/logo.png alt="logo">
+                <h1 class="burt">Burt Company</h1>
+            </div>
         </header>
         
         <div class="page navWrapper">
-            <nav  id="navbar">|
-                <a class="menu" href="home.html">Home</a>|
-                <a class="menu" href="services.html">Services</a>|
-                <a class="menu" id="contactNav" href="aboutUs.html">About Us</a>|
-                <a class="menu" href="contact.html">Contact Us</a>|
+            <nav  class="navbar">|
+                <a class="navmenu" href="home.html">Home</a>|
+                <a class="navmenu" href="services.html">Services</a>|
+                <a class="navmenu" id="contactNav" href="aboutUs.html">About Us</a>|
+                <a class="navmenu" href="contact.html">Contact Us</a>|
             </nav>
         </div>
 
         <hr>
         
-        <div class="page" id="pageImage">page image
-
+        <div class="page"  id="contactInfo">
+            <h2>Contact Us</h2>
+            <p>Email: BigBurt@yahoo <br>
+                    Phone: 1-(403)-123-1234</p> 
         </div> 
 
-        <div class="page" id="mainContent"> main content 
-            
+        <div class="page" id="mainContent">  
+            <form method="post" action="mailto:BigBurt@yahoo.ca" id="contactForm">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name (Required)</label>
+                    <input type="text" id="name" class="personal" placeholder="Burt Reynolds" required>
+
+                    <label>Email (Required) </label>
+                    <input type="email" name="email" class="personal" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="BigBurt@yahoo.ca" required>
+
+                    <label>Phone Number (Optional)</label>
+                    <input type="tel" name="tel" class="personal" pattern = “[0-9]{3}-[0-9]{3}-[0-9]{4}” placeholder="403-123-1234" >
+                </fieldset>
+                <fieldset>
+                    <legend>Services</legend> 
+                        <label for="subject"> Subject (Required)</label>
+                        <input type="text" id="subject" class="service" name="subject" maxlength="30" required >
+
+                        <label>Would you like to book an appointment</label>
+                        <input class="radio" type="radio" name="appointment" id="yes" value="Yes"> <label for="yes">Yes</label>
+                        <input class="radio" type="radio" name="appointment" id="no" value="No" checked> <label for="no">No</label> <br>
+
+                        <label> Select date for appointent</label>
+                        <input class="service" type="date" name="date">
+
+                        <label>What services are you looking for?</label>
+                        <input type="checkbox" class="service" id="audit" name="Audit" value="Audit"> <label for="audit" class="ser">Audit</label>
+                        <input type="checkbox" class="service" id="tax" name="Tax" value="Tax"> <label for="tax" class="ser">Tax</label>
+                        <input type="checkbox" class="service" id="consulting" name="Consulting" value="Consulting"> <label for="consulting" class="ser">Consulting</label><br>
+
+                        <textarea class="service" name="message" placeholder="Message" ></textarea>
+
+                        <input class="service button" type="reset" value="Clear">
+                        <input class="service button" type="submit">
+
+                </fieldset>
+            </form>
 
         </div>
 

@@ -1,6 +1,4 @@
-.pageImage {
-    margin-top: 20px;
-}
+
 
 #homeimage {
     width: 100%;
@@ -8,19 +6,19 @@
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 550px) {
     .pageImage {
         height:200px;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 551px) and (max-width: 900px) {
     .pageImage {
-        height: 400px;
+        height: 350px;
     }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 901px) {
     .pageImage {
-        height: 550px;
+        height: 450px;
     }
 }

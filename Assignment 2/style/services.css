@@ -1,1 +1,44 @@
-services
+#services {
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#servNav {
+    border: white solid;
+}
+
+h1 {
+    width: 100%;
+    margin-bottom: 0;
+    color:  rgb(32, 85, 32);
+}
+
+#servicesNav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#servicesNav a {
+    color: rgb(32, 85, 32);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#servicesNav a:hover, #servicesNav a:focus {
+    text-decoration: underline;
+}
+
+#opening {
+    width: 70%;
+    left: auto;
+    right: auto;
+    color: rgb(32,85,32);
+}
