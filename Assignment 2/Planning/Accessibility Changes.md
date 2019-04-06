@@ -9,13 +9,12 @@
 | 5 | Links | yes |
 | 6 | Clickable elements | yes |
 | 7 | Navigation and focus by keyboard | yes |
-| 8 | Skip links | yes |
-| 9 | Accesible forms | yes |
-| 10 | label for element | yes|
-| 11 | Use of fieldset | yes |
-| 12 | Required fields | yes |
-| 13 | Placeholder | no |
-| 14 | Accesible Tables | yes  |
+| 10 | Accesible forms | yes |
+| 11 | label for element | yes|
+| 12 | Use of fieldset | yes |
+| 13 | Required fields | yes |
+| 14 | Placeholder | no |
+| 15 | Accesible Tables | yes  |
 
 
 
@@ -30,11 +29,10 @@
 | 5 | Make use of styling and hover/ focus properties to clearly identify links |
 | 6 | Goes along with above |
 | 7 | Once again make use of hover and focus to inform user where they are and what nav links are clickable |
-| 8 | add skip links to pages that are applicable |
-| 9 | makes use of fieldset and "for" attribute linking input and lables. clearly mark required fields |
+| 8 | makes use of fieldset and "for" attribute linking input and lables. clearly mark required fields |
+| 9 | Noted above |
 | 10 | Noted above |
 | 11 | Noted above |
-| 12 | Noted above |
-| 13 | noted above |
+| 12 | noted above |
 
 
