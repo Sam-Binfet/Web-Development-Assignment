@@ -34,3 +34,59 @@
     
     transform: rotate(360deg);
 }
+
+.mainContent {
+    height: auto;
+}
+
+#aboutBurt {
+    font-weight: bold;
+    width: 70%;
+    margin: 20px auto;
+    left: auto;
+    right: auto;
+    
+}
+
+#title {
+    color: black;
+    caption-side: top;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+    
+}
+
+
+
+
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+th, td {
+    width: 150px;
+    height: 30px;
+}
+
+.value {
+    text-align: center;
+}
+
+#note {
+    font-size: 12px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(172, 168, 168);
+}
+
+tr:nth-child(odd) {
+    background-color: beige;
+}
+

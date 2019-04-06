@@ -17,20 +17,22 @@
 }
 
 
-#mainContent {
+.mainContent {
     background-color: rgba(32, 85, 32, 0.527);
     height: auto;
     min-height: 50%;
 }
 
-#secondaryContent {
+.secondaryContent {
     background-color: green;
     display: grid;
     grid-column: repeat(5, 1fr);
 }
 
-@media screen and (min-width: 550px) {
-  
+@media screen and (max-width: 550px) {
+    .navbar, #contactInfo {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -79,11 +81,13 @@
     transform: scale(1.2);
     text-decoration: none;
     color: white;
+    text-decoration: underline;
 }
 
 .footer {
     background-color: rgba(71, 70, 70, 0.301);
-    height: 65px;
+    height: auto;
+    
 }
 
 hr {
@@ -130,7 +134,7 @@ header {
 }
 
 .burt {
-    font-size: 35px;
+    font-size: 20px;
     color: white;
     display: inline;
     position: relative;
@@ -140,6 +144,13 @@ header {
     font-weight: bold;
 }
 
+.secondaryContent {
+    margin-top: 50px;
+    height: 5%;
+    background-color: white;;
+ }
 
+
+ 
 
 

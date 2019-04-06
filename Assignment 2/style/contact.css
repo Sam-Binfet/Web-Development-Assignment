@@ -5,7 +5,7 @@
     border: 2px solid white;
     left: auto;
     right: auto;
-    min-width: 350px;
+    min-width: 220px;
     max-width: 550px;
     text-align: left;
 }
@@ -59,4 +59,8 @@ input[type=radio], input[type=checkbox] {
  .button:hover, .button:focus  {
      outline:2px solid red;
      text-decoration: underline;
+ }
+
+ #contactNav {
+     border: white solid;
  }

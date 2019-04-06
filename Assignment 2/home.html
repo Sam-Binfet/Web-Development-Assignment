@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Burt Company - Home</title>
+        <title >Burt Company - Home</title>
         <link rel="stylesheet" href="style/general.css">
         <link rel="stylesheet" href="style/home.css">
 
@@ -39,8 +39,16 @@
             <img id="homeimage" src="images/yycskyline.png" alt="Calgary Skyline">
         </div> 
 
-        <div class="page" id="mainContent"> main content 
-            <p>
+        <div class="page mainContent"> 
+            <picture>
+                <source srcset="images/brookfieldplaceSmall.jpg" media="(max-width: 550px)"/>
+                <source srcset="images/brookfieldplaceMedium.jpg" media="(max-width: 800px)"/>
+                <img alt="brookfield place calgary alberta" srcset="images/brookfieldplaceLarge.jpg"/>
+            </picture>
+
+            
+
+            <p id="intro">
                 Established in 2016, Burt Company is quickly establishing itself in the financial services space.
                 This is due to our increased emphasis on technological innovation, setting us appart from our competitiors. We have harnessed 
                 the power of blockchain, smart contracts, and artificial intelegence to disrupt the standards of the historical 
@@ -50,13 +58,18 @@
 
         </div>
 
-        <div class="page" id="secondaryContent"> 
+        <div class="page secondaryContent"> 
             <div></div>
 
         </div>
         
-        <footer class="page footer"> footer
-
+        <footer class="page footer"> 
+            <p>
+                @2016 Burt Company LLP <br><br>
+                "You get to a certain age, where you know you can't go over the wall, but I'll never get to the age
+                where I can't go through it." 
+                - Burt Reynolds
+            </p>
         </footer>
 
 

@@ -4,11 +4,21 @@
     width: 100%;
     height: 100%;
 }
+#intro {
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    margin-left: 40px;
+    font-size: 20px;
+}
 
 
 @media screen and (max-width: 550px) {
     .pageImage {
         height:200px;
+    }
+    #intro {
+        font-size: 12px;
     }
 }
 
@@ -22,3 +32,21 @@
         height: 450px;
     }
 }
+
+#homeNav {
+    border: white solid;
+}
+
+
+
+.mainContent {
+    display: flex;
+    align-items: center;
+}
+
+picture {
+    margin: 20px;
+}
+
+
+
